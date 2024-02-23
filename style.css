@@ -271,6 +271,7 @@ body {
 .warning {
   font-size: 14px;
   opacity: 0.5;
+  margin-top: 30px;
 }
 
 .location-box1 {
@@ -396,10 +397,32 @@ body {
 .filter {
   display: none;
 }
-.check-sign{
+.check-sign {
   display: none;
 }
+
+.location-box{
+  border-bottom: 1px solid black;
+}
+
 @media screen and (max-width: 1200px) {
+  .wrapper {
+    margin: 20px 40px;
+  }
+  .wrapper-1 {
+    margin: auto 20px;
+    gap: 10px;
+  }
+  .btn_drop {
+    top: 592px;
+  }
+  .grp_btn {
+    top: 593px;
+  }
+  .horizontal-bar {
+    margin: 10px 0;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1000px) {
   .search-input {
@@ -463,6 +486,10 @@ body {
     width: 100%;
   }
 
+  .card-container{
+    flex:1;
+  }
+
   .card {
     width: 100%;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
@@ -506,7 +533,6 @@ body {
     height: 200px;
   }
 }
-
 @media screen and (max-width: 800px) {
   .modal-content {
     background-color: #fefefe;
@@ -514,7 +540,7 @@ body {
     border: 1px solid #888;
     width: 70%;
   }
-  .close{
+  .close {
     right: 60px;
     color: white;
   }
@@ -526,17 +552,17 @@ body {
     border: 1px solid #888;
     width: 79%;
   }
-  .close{
+  .close {
     right: 60px;
     color: white;
   }
-  .header1{
+  .header1 {
     padding: 10px;
   }
-  .container-2{
+  .container-2 {
     display: none;
   }
-  .check-sign{
+  .check-sign {
     margin: 20px 0;
     display: flex;
   }
@@ -585,7 +611,7 @@ body {
   .buttons {
     display: none;
   }
-  .close{
+  .close {
     top: 10px;
     right: 60px;
     color: white;
@@ -645,10 +671,10 @@ body {
     /* background-color: red; */
   }
   .wrapper {
-    margin: 0;
+    margin: 0 6px ;
   }
   .wrapper-1 {
-    margin: 0;
+    margin: 7px;
     gap: 0;
   }
   .location-box1 {
@@ -659,7 +685,7 @@ body {
   }
 
   .card {
-    width: 100vw;
+    /* width: 100vw; */
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
   }
 
@@ -707,7 +733,7 @@ body {
     justify-content: space-between;
   }
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
   .modal-content {
     background-color: #fefefe;
     margin: 40px 50px;
@@ -716,13 +742,13 @@ body {
     width: 79%;
     /* max-width: 400px; */
   }
-  .header1{
+  .header1 {
     padding: 10px;
   }
-  .check-sign{
+  .check-sign {
     font-size: 14px;
   }
-  .close{
+  .close {
     top: 10px;
     right: 40px;
     color: white;
